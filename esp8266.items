@@ -1,0 +1,5 @@
+String Temperature "Temperature [%.1f °C]" ["CurrentTemperature"] { http="<[http://192.168.1.69/:6000:REGEX(.*?<html>(.*?)</html>.*)]" }
+// change the ip with yours
+
+
+

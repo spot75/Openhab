@@ -1,0 +1,6 @@
+rule "Temperature"
+when
+    Item Temperature changed
+then
+    Temperature.postUpdate(Float::parseFloat(String::format("%s",Temperature.state).replace(' ','')))
+end
