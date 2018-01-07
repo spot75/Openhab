@@ -15,7 +15,7 @@ What you need:
 3. The rules file to convert the string to number
 4. The items file to connect to esp8266 web server.
 
-
+How to start:
 - First flash the code to esp8266 with arduino IDE.
 - Then test it in your web browser, you schould see e.g. only this "21,55" .
 - Then install, if you already don´t have, the "http binding" on Openhab2.
